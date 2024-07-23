@@ -5,7 +5,7 @@
 
 body{
     background-color: #F8F8F8;
-    height: 100vh;
+    height: calc(var(--vh) * 100);
     background-image: url(./background\ image.svg);
 }
 
@@ -197,10 +197,6 @@ main{
 
 
 @media (max-width: 490px) {
-    body{
-        height: 100vh;
-    }
-
     h1{
         font-size: 2.5em;
     }
