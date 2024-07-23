@@ -27,6 +27,8 @@ body{
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 1.2em;
+    color:#323233;
+    letter-spacing: normal;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -61,12 +63,13 @@ h1{
 }
 
 p{
-    color:#323233;
+    color: #78787A;
     text-align: center;
     font-family: Inter;
     font-size: 1.2em;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
+    letter-spacing: -0.2px;
     line-height: normal;
 }
 
@@ -133,6 +136,8 @@ button{
     font-weight: 600;
     font-size: 1.2em;
     white-space: nowrap;
+    color:#323233;
+    letter-spacing: normal;
 }
 
 main{
