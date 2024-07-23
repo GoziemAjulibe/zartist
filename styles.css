@@ -199,7 +199,7 @@ main{
 @media (max-width: 490px) {
 
     .carousel-track{
-        animation-duration: 10s;
+        animation-duration: 15s;
     }
 
     body{
