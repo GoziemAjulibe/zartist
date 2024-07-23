@@ -29,6 +29,16 @@ body{
     font-size: 1.2em;
 }
 
+@media (hover: hover) and (pointer: fine) {
+    .tab:hover:not(.selected) {
+        background-color: #E9E9EB;
+    }
+}
+
+.selected{
+    background-color: #FF961B;
+}
+
 .button-group{
     display: flex;
     gap: 0px;
@@ -64,7 +74,7 @@ p{
     display: flex;
     flex-direction: column;
     gap: 1.5em;
-    width: 40%;
+    width: 35%;
     margin: auto;
 }
 
@@ -72,7 +82,7 @@ p{
     display: flex;
     flex-direction: column;
     gap: 1.5em;
-    width: 35%;
+    width: 40%;
     margin: auto;
 }
 
@@ -102,13 +112,7 @@ button{
     gap: 3em;
 }
 
-.selected{
-    background-color: #FF961B;
-}
 
-.hover{
-    background-color: #E9E9EB;
-}
 
 .carousel{
     background-color: #F8F8F8;
@@ -155,10 +159,6 @@ main{
     display: flex;
 }
 
-.carousel-track::after {
-    content: attr(data-duplicate);
-    display: flex;
-}
 
 @keyframes scroll {
     0% {
@@ -168,7 +168,6 @@ main{
         transform: translateX(-100%);
     }
 }
-
 
 
 
